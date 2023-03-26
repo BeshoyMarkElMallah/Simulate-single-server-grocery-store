@@ -16,8 +16,8 @@ print("Customer \t IAT \t ST \t Arrival Time \t Service Start \t Service End \t 
 
 
 for i in range(10):
-    iat.append(r.randint(1, 5))
-    st.append(r.randint(1, 7))
+    iat.append(r.randint(1, 7))
+    st.append(r.randint(4, 8))
 
     if i == 0:
         arrival_time.append(iat[i])
